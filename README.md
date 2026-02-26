@@ -1,27 +1,45 @@
-# asaas-manifesto
-L'ASAAS est un paradigme architectural où le logiciel n'est plus statique  mais évolutif par essence, grâce à des Agents Intelligents Autonomes  (IA Agents) intégrés dans l'infrastructure SaaS traditionnelle.
+# ASAAS - Agentic Software as a Service
 
-# Inschool ASAAS - Version Fondateur
+[![Genesis](https://img.shields.io/badge/Genesis-2025-blue.svg)]()
+[![Status](https://img.shields.io/badge/Status-Pre--Alpha-orange.svg)]()
+[![Location](https://img.shields.io/badge/Made%20in-Morocco-red.svg)]()
 
-Le premier système ASAAS (Agentic Software as a Service) opérationnel 
-pour le secteur éducatif.
+> **Définition** : Software déployé où les fonctionnalités ne sont pas codées par des humains mais générées, maintenues et optimisées par des Agents IA autonomes.
 
-## Statut
-🟢 **Pre-Alpha** | Démo V1 en cours de développement
+## 🧠 Les 4 Piliers
 
-## Stack Technique
-- Core : ASP.NET WebForms (Legacy Migration Path)
-- Agents : Architecture hybride Cloud/Local (Ollama + API)
-- Orchestration : w1.aspx (Agent Workflow Engine)
-- Déploiement : WinForm Mission Control + Git + FTP
+1. **Mémoire Contextuelle Persistante (MCP)** - L'agent se souvient du métier client
+2. **Isolation Agentique Multi-Tenante (IAMT)** - 1 agent = 1 client, sandboxé
+3. **Hybridation Humaine Asynchrone (HHA)** - Escalade obligatoire sur décision critique  
+4. **Génération Continue de Valeur (GCV)** - Le code évolue sans déploiement classique
 
-## Roadmap
-- [x] Architecture fondamentale (w1.aspx)
-- [x] Orchestrateur multi-agents
-- [ ] Intégration Agent Data (OCR/Import)
-- [ ] Intégration Agent Navigation (UI Assistant)
-- [ ] Intégration Agent Dev (Self-healing code)
-- [ ] Publication ResearchGate
+## 🏗️ Architecture Inschool (Implémentation Réelle)
 
-## Contact
-Arafa.gharami@in-side.ma
+Client (École) ←→ Agent Layer ←→ Core SaaS (.NET) ↓ ↓ ↓ Git Historisé AI Agents Legacy WebForms (Versionning) (3 Profils) (200+ Features)
+
+
+**Agents Disponibles :**
+- 🔧 **Agent Données** : OCR, Import Excel, Migration
+- 🧭 **Agent Navigation** : Guide contextuel, Auto-completion  
+- ⚙️ **Agent Dev** : Génération code, Self-healing, Extensions
+
+## 📊 Statut du Projet
+
+- **7 clients pilotes** en production (Maroc)
+- **14 instances** déployées
+- **Forfait ASAAS** : 10 000 MAD/an (Agent Dev inclus)
+
+## 🌍 Localisation
+Conçu et développé à Casablanca, Maroc pour les écoles privées maghrébines.
+
+## 📄 Documentation
+- [MANIFESTO.md](MANIFESTO.md) - Définition originelle du paradigme
+- [ResearchGate](https://www.researchgate.net/) (À venir)
+
+## 👤 Auteur
+**Arafa Gharami** - Architecte Logiciel & Fondateur ASAAS
+- 23 ans d'expérience développement
+- 4 ans d'IA générative (depuis 2020)
+
+---
+*© 2025 - ASAAS Manifesto v1.0*
